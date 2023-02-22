@@ -1,0 +1,9 @@
+{
+  "extensionId": {
+    "name": "Fuzzy_Baddy",
+    "path": "extensions/Fuzzy_Baddy/Fuzzy_Baddy.yy"
+  },
+  "resourceVersion": "1.0",
+  "resourceType": "GMExtensionConfigSet",
+  "configurables": null
+}
