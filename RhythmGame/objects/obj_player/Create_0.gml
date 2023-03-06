@@ -19,11 +19,6 @@ enum state {
 
 myState = state.IDLE; 
 
-//image_speed = scr_convertImageSpeed(animationFPS, 1);  // play back at full speed 
-
-
-// sprite vars (you can change these depending on the resolution/format you want to use)
-
 
 spriteIdle = sKnightIdle; 
 spriteAttackUp = sKnightAirAttack; 

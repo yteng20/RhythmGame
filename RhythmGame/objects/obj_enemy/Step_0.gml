@@ -2,12 +2,20 @@
 // You can write your code in this editor
 
 image_xscale = -1;
-x = x - spd;
 
+if(hp  > 0)
+{
+	x = x - spd;
+}
 
-//if left the screen from the left
+//if the enemy exit the screen from the left
 if(x < 0)
 {
 	obj_player.hp = obj_player.hp - 1;
+	obj_player.myState = state.HURT;
 }
 
+if(hp <= 0)
+{
+	instance_destroy();
+}
