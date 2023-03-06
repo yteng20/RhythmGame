@@ -3,11 +3,8 @@
 
 image_xscale = -1;
 
-<<<<<<< Updated upstream
-if(hp  > 0)
-=======
+
 if(hp > 0)
->>>>>>> Stashed changes
 {
 	x = x - spd;
 }
