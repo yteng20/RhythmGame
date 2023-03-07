@@ -20,4 +20,8 @@ if (keyboard_check(ord("X"))) {
 }
 
 
-//show_debug_message("fjdsfkjshkf")
+if (hp != previous_hp)
+{
+	previous_hp = hp;
+	myState = state.HURT;
+}

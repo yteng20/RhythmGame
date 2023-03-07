@@ -12,8 +12,8 @@ if(hp > 0)
 //if the enemy exit the screen from the left
 if(x < 0)
 {
-	obj_player.hp = obj_player.hp - 1;
-	obj_player.myState = state.HURT;
+	obj_player.hp--;
+	instance_destroy();
 }
 
 if(hp <= 0)

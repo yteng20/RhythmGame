@@ -1,6 +1,7 @@
 /// @description  init vars, states
 
-hp = 5;
+hp = 10;
+previous_hp = hp;
 animationFPS = 30; // this is the framerate at which the SWF file was animated; it's also the framerate of the raster images. It may or may not match your game's framerate.
 
 // Call the function scr_convertImageSpeed(originalFPS, targetImageSpeed) to compensate for animation/game framerate discrepancy  
@@ -26,3 +27,4 @@ spriteAttackDown = sKnightAttack;
 spriteGuard = sKnightGuardHit
 spriteHurt = sKnightHurt; 
 spriteDie = sKnightDeath; 
+
