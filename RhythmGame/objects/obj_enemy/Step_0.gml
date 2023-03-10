@@ -3,7 +3,6 @@
 
 image_xscale = -1;
 
-
 if(hp > 0)
 {
 	x = x - spd;
@@ -16,7 +15,19 @@ if(x < 0)
 	instance_destroy();
 }
 
-if(hp <= 0)
-{
-	instance_destroy();
+if (x + sprite_width / 2 <= 0) {
+	instance_destroy()
 }
+
+var time = audio_sound_get_track_position(global.bgm_id)
+
+if (keyboard_check(key)) {
+	if (abs(time - end_time) <= 0.1) {
+		instance_destroy()
+	}
+}
+
+var dt = time - prev_time
+prev_time = time
+
+x += spd * dt
