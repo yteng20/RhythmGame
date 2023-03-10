@@ -3,10 +3,16 @@
 
 image_xscale = -1;
 
-//if left the screen from the left
+if(hp > 0)
+{
+	x = x - spd;
+}
+
+//if the enemy exit the screen from the left
 if(x < 0)
 {
-	obj_player.hp = obj_player.hp - 1;
+	obj_player.hp--;
+	instance_destroy();
 }
 
 if (x + sprite_width / 2 <= 0) {

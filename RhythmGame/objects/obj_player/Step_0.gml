@@ -1,5 +1,6 @@
 /// @description  update states, positions
 
+
 // states
 if (keyboard_check_pressed(vk_down)) { 
     myState = state.ATTACK_DOWN; 
@@ -19,4 +20,8 @@ if (keyboard_check(ord("X"))) {
 }
 
 
-
+if (hp != previous_hp)
+{
+	previous_hp = hp;
+	myState = state.HURT;
+}
