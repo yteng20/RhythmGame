@@ -2,8 +2,6 @@
 // You can write your code in this editor
 
 image_xscale = -1;
-x = x - spd;
-
 
 //if left the screen from the left
 if(x < 0)
@@ -11,3 +9,19 @@ if(x < 0)
 	obj_player.hp = obj_player.hp - 1;
 }
 
+if (x + sprite_width / 2 <= 0) {
+	instance_destroy()
+}
+
+var time = audio_sound_get_track_position(global.bgm_id)
+
+if (keyboard_check(key)) {
+	if (abs(time - end_time) <= 0.1) {
+		instance_destroy()
+	}
+}
+
+var dt = time - prev_time
+prev_time = time
+
+x += spd * dt
