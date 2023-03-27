@@ -4,19 +4,15 @@
 image_xscale = -1;
 
 //if left the screen from the left
-if(x < 0)
-{
+if (x - sprite_width / 2 <= 0) {
 	obj_player.hp = obj_player.hp - 1;
-}
-
-if (x + sprite_width / 2 <= 0) {
 	instance_destroy()
 }
 
 var time = audio_sound_get_track_position(global.bgm_id)
 
 if (keyboard_check(key)) {
-	if (abs(time - end_time) <= 0.1) {
+	if (abs(time - end_time) <= 0.2) {
 		instance_destroy()
 	}
 }

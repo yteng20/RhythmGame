@@ -21,6 +21,8 @@
   "gradleinject": "",
   "hasConvertedCodeInjection": true,
   "helpfile": "",
+  "HTML5CodeInjection": "",
+  "html5Props": false,
   "IncludedResources": [
     "Sprites\\spr_fuzzball_vector\\spr_fuzzball_wake",
     "Sprites\\spr_fuzzball_vector\\spr_fuzzball_sleep",
