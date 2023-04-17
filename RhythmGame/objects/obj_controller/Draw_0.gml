@@ -19,9 +19,6 @@ draw_text(220, 50, string(instance_number(obj_enemy)))
 
 draw_line(global.marker_pos_x, 0, global.marker_pos_x, room_height)
 draw_line(0, global.horizontal_lanes[0], room_width, global.horizontal_lanes[0])
-<<<<<<< Updated upstream
-draw_line(0, global.horizontal_lanes[1], room_width, global.horizontal_lanes[1])
-=======
 draw_line(0, global.horizontal_lanes[1], room_width, global.horizontal_lanes[1])
 
 if (instance_exists(obj_player)) {
@@ -30,4 +27,3 @@ if (instance_exists(obj_player)) {
 }
 
 draw_text(800, room_height - 30, "use up and down arrow keys to attack enemies as they cross the vertical line")
->>>>>>> Stashed changes
