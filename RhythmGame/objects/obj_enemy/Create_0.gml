@@ -3,6 +3,7 @@
 
 hp = 1;
 
+
 // rhythm based movement
 start_time = audio_sound_get_track_position(global.bgm_id)
 prev_time = start_time
