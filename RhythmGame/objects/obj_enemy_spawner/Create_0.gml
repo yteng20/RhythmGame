@@ -1,1 +1,1 @@
-prev_beat = 0;
+prev_beat = 0

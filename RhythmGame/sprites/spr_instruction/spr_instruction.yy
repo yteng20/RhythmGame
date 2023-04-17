@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a9c404cb-aada-4350-a42f-e6e65116e97d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"673b2939-315a-433e-a5ec-f5593a600289",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 462,
-  "HTile": false,
+  "HTile": true,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3fea1cc8-dbb2-4d57-84d0-2a216a6edc06","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b6fc76a6-0c2e-4501-a299-4db76906ccd4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "tilesets",
+    "path": "folders/Sprites/tilesets.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a9c404cb-aada-4350-a42f-e6e65116e97d","path":"sprites/spr_instruction/spr_instruction.yy",},},},"Disabled":false,"id":"3a0b0f80-e3ce-41a2-a656-2c3ae536e05d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"673b2939-315a-433e-a5ec-f5593a600289","path":"sprites/spr_instruction/spr_instruction.yy",},},},"Disabled":false,"id":"8c429c8a-756c-4696-913f-c6afd864c2a1","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -69,6 +69,6 @@
     "path": "texturegroups/Default",
   },
   "type": 0,
-  "VTile": false,
+  "VTile": true,
   "width": 811,
 }

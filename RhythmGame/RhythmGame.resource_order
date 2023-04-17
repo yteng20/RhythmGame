@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
-    {"name":"spr_instruction","order":1,"path":"sprites/spr_instruction/spr_instruction.yy",},
     {"name":"Room0","order":1,"path":"rooms/Room0/Room0.yy",},
+    {"name":"spr_instruction","order":1,"path":"sprites/spr_instruction/spr_instruction.yy",},
   ],
 }
