@@ -38,4 +38,5 @@ else
 	instance_destroy(obj_enemy);
 	instance_destroy(obj_enemy_up);
 	instance_destroy(obj_enemy_down);
+	instance_destroy(obj_enemy_spawner);
 }
